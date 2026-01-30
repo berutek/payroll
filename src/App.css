@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.seperator{
+  padding: 0 10px;
+}
+
+.seconds{
+  color: rgb(136, 218, 140);
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
